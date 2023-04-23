@@ -3,6 +3,8 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
+//adding this so the push will go through
+
 
 Tag.init(
   {
